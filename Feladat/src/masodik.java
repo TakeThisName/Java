@@ -8,7 +8,7 @@ public class masodik {
 		int osszeg = a+b;
 		int kulombseg = a-b;
 		int szorzat = a*b;
-		int hanyados = a/b;
+		double hanyados = a/b;
 		
 		System.out.println("Összeg: "+ osszeg +"\nKülömbség: "+kulombseg+"\nSzorzat: "+szorzat+"\nHányados: "+hanyados);
 	}
