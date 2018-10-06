@@ -18,7 +18,7 @@ public class Main {
 				szoveg +" "+
 				igaze
 				);
-		System.out.println(PI);
+		System.out.println(PI); // ewjorfiuw
 		
 		String szo = igaze ? "igaz" : "hamis"; // ternális operátor -> ha igaze true, akkor "igaz", ha hamis akkor "hamis"
 		
