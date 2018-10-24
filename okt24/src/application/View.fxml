@@ -11,8 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-
-<AnchorPane minHeight="600.0" minWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.ViewController">
+<AnchorPane minHeight="600.0" minWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ViewController">
    <children>
       <BorderPane layoutX="25.0" layoutY="25.0" prefHeight="250.0" prefWidth="250.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
@@ -34,10 +33,10 @@
          <center>
             <TableView fx:id="tabla" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
               <columns>
-                <TableColumn prefWidth="152.0" text="ID" />
-                <TableColumn prefWidth="242.0" text="Vezetéknév" />
-                  <TableColumn prefWidth="210.0" text="Keresztnév" />
-                  <TableColumn prefWidth="182.0" text="Szl.Idő" />
+                <TableColumn fx:id="table_ID" prefWidth="152.0" text="ID" />
+                <TableColumn fx:id="table_Veznev" prefWidth="242.0" text="Vezetéknév" />
+                  <TableColumn fx:id="table_Knev" prefWidth="210.0" text="Keresztnév" />
+                  <TableColumn fx:id="table_Szilido" prefWidth="182.0" text="Szl.Idő" />
               </columns>
             </TableView>
          </center>
